@@ -12,4 +12,14 @@ economics_long %>%
   ggplot(aes(date, value01)) +
   geom_line(aes(color=variable))
 ```
+I need to check if I can see the differences
+
+```{r}
+print("checando diferencias")
+```
+```{r}
+b=4
+c <- a+b
+print(c)
+```
 
